@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+	>
+
+		<LinearLayout
+		    style="@style/Widget"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+			<TextView
+				android:id="@+id/sourceLabel"
+				android:text="@string/label_source"
+				style="@style/WidgetHeader"
+			/>
+	
+			<TextView
+				android:id="@+id/sourceValue"
+				android:text=""
+				style="@style/WidgetBody"
+			/>
+
+		</LinearLayout>
+		
+		<View style="@style/Divider"/>
+
+		<LinearLayout style="@style/Widget">
+		
+			<TextView
+				android:id="@+id/rrLabel"
+				android:text="@string/label_rr"
+				style="@style/WidgetHeader"
+			/>
+	
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+			>
+			    
+				<com.zenobase.cardio.RRChartView
+					android:id="@+id/rrPlot"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_margin="0dp"
+					android:layout_weight="2"
+					android:layout_gravity="center_vertical|fill_horizontal"
+					android:gravity="center_vertical"
+					android:padding="5dp"
+				/>
+
+				<TextView
+					android:id="@+id/rrValue"
+					android:text=""
+					android:layout_width="130dp"
+					android:layout_height="wrap_content"
+					android:gravity="right|center_vertical"
+					style="@style/WidgetBody"
+				/>
+							
+			</LinearLayout>
+						
+		</LinearLayout>
+		
+		<View style="@style/Divider"/>
+
+		<LinearLayout style="@style/Widget">
+		
+			<TextView
+				android:id="@+id/timerLabel"
+				android:text="@string/label_timer"
+				style="@style/WidgetHeader"
+			/>
+	
+			<com.zenobase.cardio.TimerView
+				android:id="@+id/timerValue"
+				style="@style/WidgetBody"
+			/>
+	
+		</LinearLayout>
+			
+		<View style="@style/Divider"/>
+				
+	</LinearLayout>
+
+</ScrollView>

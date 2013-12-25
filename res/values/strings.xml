@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="app_name">Cardio</string>
+
+	<string-array name="roboguice_modules">
+		<item>com.zenobase.cardio.MainModule</item>
+	</string-array>
+
+	<string name="oauth_client_id">kbuk9h0ihh</string>
+	<string name="host">https://zenobase.com</string>
+
+	<string name="data_scheme">x-oauth</string>
+	<string name="data_host">zenobase.com</string>
+	<string name="data_path">/cardio</string>
+
+	<string name="label_source">SOURCE</string>
+	<string name="label_rr">RR INTERVAL</string>
+	<string name="label_timer">TIME</string>
+
+	<string name="menu_start">Start</string>
+	<string name="menu_stop">Stop</string>
+	<string name="menu_pause">Pause</string>
+	<string name="menu_sign_in">Sign in&#8230;</string>
+	<string name="menu_sign_out">Sign out</string>
+
+	<string name="toast_sign_in_success">Signed in.</string>
+	<string name="toast_sign_in_error">Could not sign in.</string>
+
+	<string name="event_dialog_title">Results</string>
+	<string name="event_dialog_message">HR: %1$d bpm\nSDNN: %2$d ms</string>
+	<string name="event_dialog_negative">Discard</string>
+	<string name="event_dialog_positive">Save</string>
+
+	<string name="task_save_success">Saved.</string>
+	<string name="task_save_error">Could not save.</string>
+
+	<string name="event_tag">heart rate</string>
+
+	<string name="message_bluetooth_disabled">Bluetooth is not enabled.</string>
+
+</resources>

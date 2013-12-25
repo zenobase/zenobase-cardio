@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item
+	    android:id="@+id/menu_start"
+		android:icon="@drawable/ic_start"
+		android:title="@string/menu_start"
+		android:showAsAction="always"
+	/>
+
+	<item
+	    android:id="@+id/menu_pause"
+		android:icon="@drawable/ic_pause"
+		android:title="@string/menu_pause"
+		android:showAsAction="always"
+		android:visible="false"
+	/>
+
+	<item
+	    android:id="@+id/menu_stop"
+		android:icon="@drawable/ic_stop"
+		android:title="@string/menu_stop"
+		android:showAsAction="always"
+		android:enabled="false"
+	/>
+
+</menu>
