@@ -1,10 +1,14 @@
 Zenobase Cardio
 ===============
 
-Zenobase Cardio is a simple Android app for capturing data from a Bluetooth LE heart rate monitor. 
+Zenobase Cardio is a simple Android (4.3+) app for performing resting heart rate tests using a Bluetooth LE heart rate 
+monitor such as the [Polar H7](http://www.polar.com/en/products/accessories/H7_heart_rate_sensor). 
 
-This app can be used as a template for apps that record data to [Zenobase](https://zenobase.com/); in particular, 
-this app demonstrates how to use OAuth2 to obtain an authorization and send data to Zenobase on behalf of a user.
+This app can be used as a template for apps that record data to [Zenobase](https://zenobase.com/) through the 
+[API](https://zenobase.com/#/api/); in particular, this app demonstrates how to use OAuth2 to obtain an authorization 
+and send data to Zenobase on behalf of a user.
+
+![Screenshot](screenshot.png)
 
 
 License
