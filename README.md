@@ -8,7 +8,7 @@ This app can be used as a template for apps that record data to [Zenobase](https
 [API](https://zenobase.com/#/api/); in particular, this app demonstrates how to use OAuth2 to obtain an authorization 
 and send data to Zenobase on behalf of a user.
 
-![Screenshot](screenshot.png)
+![Screenshot](docs/screenshot.png)
 
 
 License
